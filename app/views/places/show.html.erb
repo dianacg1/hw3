@@ -3,7 +3,10 @@
 <ul>
     <% for dog in @place.posts %>
         <li>
-            <%= dog.title %>, <%= dog.posted_on %>, <%= dog.description %>
+            <h2><%= dog.title %></h2> 
+            <%= dog.posted_on %> 
+            <br></br>
+            <%= dog.description %>
         </li>
     <% end %>
 </ul>
